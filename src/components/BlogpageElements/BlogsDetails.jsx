@@ -1,5 +1,5 @@
 import Vasu_Narula from "../../Assets/Images/Vasu_Narula.png";
-import Manish_Pulwaria from "../../Assets/Images/MP_IMAGE.png";
+import Manish_Pulwaria from "../../Assets/Images/MP_IMAGE.jpg";
 import Praveen_Miglani from "../../Assets/Images/PM_IMAGE.png";
 import Ankush_Tiwari from '../../Assets/Images/Ankush_Tiwari-removebg-preview.png';
 import Sanket_sir from "../../Assets/Images/Sanket_sir.png";
