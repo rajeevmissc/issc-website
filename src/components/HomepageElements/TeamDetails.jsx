@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
 import { Heading4, Heading2, BodyText } from "../../utils/Typography";
 import Mayank_Image from "../../Assets/Images/Mayank.png";
-import Vasu_Narula from "../../Assets/Images/Vasu_Narula.png";
-import Vishal_baid from "../../Assets/Images/Vishal_baid.png";
+import Pulkit_Gupta from "../../Assets/Images/Pulkit_Gupta.jpg";
+import Shubham_Singhal from "../../Assets/Images/Shubham.png";
 import Amit_Saini from "../../Assets/Images/AMIT_IMAGE.png";
 import Aman_kedia from "../../Assets/Images/AMAN_KEDIA_IMAGE.png"
 import Manish_Pulwaria from "../../Assets/Images/MP_IMAGE.png";
@@ -12,6 +12,9 @@ import Vineet_sir from "../../Assets/Images/Vineet_sir.png";
 import Maam from "../../Assets/Images/Maam.png";
 import Bob_image from "../../Assets/Images/Bob_image.png";
 import Sanket_sir from "../../Assets/Images/Sanket_sir.png";
+import Shaurya_Rastogi from "../../Assets/Images/Shaurya_Rastogi.png";
+import Rishab_Bachhawat from "../../Assets/Images/Rishab_Bachhawat.jpg";
+import Manish_Jodhani from "../../Assets/Images/Manish_Jodhani.jpg";
 const teamMembers = [
   {
     id: 1,
@@ -63,16 +66,16 @@ const teamMembers = [
   },
   {
     id: 5,
-    name: "Sanket Agrawal",
-    role: "Senior Manager | ACCA",
-    image: Sanket_sir,
+    name: "Shaurya Rastogi",
+    role: "Senior Manager",
+    image: Shaurya_Rastogi,
     bgColor: "bg-red-200",
-    shortDescription: "Senior Manager at ISSC | ACCA",
+    shortDescription: "Senior Manager at ISSC | CA",
     details: {
       introduction:
-        "Sanket is a seasoned multi-domain finance professional with over 14 years of experience in Accounting, Reporting, US taxation, Controllership and professional services assurance roles. In his career Sanket has worked across various assurance and consultancy engagements at large professional services firms and has significant exposure to global accounting standards (IFRS, UK GAAP, US GAAP, AAS and IAS). Sanket has worked in various geographies such as Australia, India, France and Germany and has a passion for process improvement through driving technology driven change supported by his acumen in effectively managing large diverse teams. Sanket is a qualified chartered accountant (ACCA, UK) and has specialization in Financial reporting, Assurance and Performance Management.",
-    },
-  },
+        "Shaurya Rastogi is a qualified Chartered Accountant with over 10 years of post-qualification experience across Indian practice and global audit engagements. He brings extensive expertise in Assurance, Audit, ICFR, and SOX Compliance. He has built a strong professional track record through his association with esteemed organizations such as Deloitte Haskins & Sells, EY GDS, and Deloitte USI. Throughout his career, he has worked with diverse clients across various geographies and industries, developing strong proficiency in global audit and reporting frameworks, including IFRS, US GAAP, Ind AS, and other international standards. He combines deep technical knowledge with a strategic, business-focused approach to deliver high-quality financial and operational solutions. His blend of professional expertise, leadership capabilities, and commitment to innovation enables organizations to enhance compliance, strengthen governance, improve operational efficiency, and achieve sustainable business growth."
+  }
+},
   {
     id: 6,
     name: "Manish Phalwaria",
@@ -87,14 +90,14 @@ const teamMembers = [
   },
   {
     id: 7,
-    name: "Vishal Baid",
+    name: "Shubham Singhal",
     role: "Senior Manager | CA",
-    image: Vishal_baid,
+    image: Shubham_Singhal,
     bgColor: "bg-blue-200",
     shortDescription: "Senior Manager at ISSC.",
     details: {
       introduction:
-        "Vishal, a Senior Manager at ISSC, possesses more than a decade of extensive auditing and accounting experience spanning diverse industries. He brings a strong professional history, having collaborated with esteemed firms such as KPMG and EY. He holds a prestigious CA qualification from the Institute of Chartered Accountants of India (ICAI). Vishal has extensive knowledge of working on IFRS, US GAAP and Ind AS. His wealth of knowledge and substantial experience positions him as a valuable asset to the team."
+        "A seasoned audit professional with over 8.5 years of experience across Deloitte Haskins & Sells, EY GDS, and Deloitte USI, he brings deep expertise in audit and assurance services for listed and large private enterprises. His core strengths include PCAOB audits, financial reporting under US GAAP, risk assessment, and internal controls. In addition to leading complex engagements and mentoring teams, he has played an active role in driving audit excellence through talent development, recruitment, onboarding, and capability-building initiatives."
     },
   },
   {
@@ -106,8 +109,8 @@ const teamMembers = [
     shortDescription: "Senior Manager at ISSC",
     details: {
       introduction:
-        "Ankush, Senior-manager at ISSC's Audit Practice, has 7+ years of diverse audit experience with private companies across sectors. He has been with ISSC for last 6 years, known for his meticulous attention to detail, strong analytical skills, and adeptness in navigating complex regulatory landscapes. Ankush has successfully led numerous audit projects, ensuring clients maintain the highest financial accountability standards. His expertise covers Dutch GAAP, UK GAAP and compliance with IFRS standards. Ankush is a qualified CA from the Institute of Chartered Accountants of India.",
-    },
+        "Ankush Tiwari, Senior Manager at ISSC’s Audit Practice, brings over 7 years of diverse audit experience with private companies across multiple sectors. Having been with ISSC for the past 7 years, he is recognized for his meticulous attention to detail, strong analytical skills, and ability to navigate complex regulatory landscapes. Ankush has successfully led numerous audit projects, ensuring clients maintain the highest standards of financial accountability. His expertise spans Dutch GAAP, UK GAAP, and compliance with IFRS standards. In addition to his audit specialization, Ankush has gained exposure to accounting and tax practices, further strengthening his ability to provide holistic financial insights. A qualified Chartered Accountant from the Institute of Chartered Accountants of India, Ankush combines technical expertise with practical business knowledge, positioning himself as a versatile leader in the audit and finance domain.",
+    }
   },
   {
     id: 9,
@@ -118,20 +121,20 @@ const teamMembers = [
     shortDescription: "Manager at ISSC",
     details: {
       introduction:
-        "Amit, a manager in the firm's Audit Practice, specialises in External Audit. He brings 9 years of extensive External Audit experience, including 5 years with global firms PwC and EY India. Amit has successfully led audit engagements for clients in diverse industries, including Pharma, Food Chain, and Hospitality. He qualifies as a Chartered Accountant (CA) from the Institute of Chartered Accountants India."
+        "Amit Saini is a Manager in the firm’s Audit Practice, specializing in External Audit and Assurance. With over 10 years of professional experience, including 5 years with PwC and EY India, he has led and managed audit engagements across diverse industries such as Pharmaceuticals, Food & Beverage, and Hospitality. In addition to his audit expertise, Amit has experience in U.S. Taxation, including the preparation and filing of Forms 1120, 1120S, 1065, and 1040. He is a Chartered Accountant (CA) and a member of the Institute of Chartered Accountants of India (ICAI), known for his strong technical knowledge, attention to detail, and commitment to delivering high-quality client service."
     },
   },
   {
     id: 10,
-    name: "Vasu Narula",
+    name: "Pulkit Gupta",
     tagLine: "Designing Engaging User Experiences with Code",
     role: "Manager",
-    image: Vasu_Narula,
+    image: Pulkit_Gupta,
     bgColor: "bg-green-200",
     shortDescription: "Manager at ISSC",
     details: {
       introduction:
-        "Vasu Narula is a Manager at ISSC with extensive experience in financial reporting, taxation, and compliance. He has successfully delivered high-quality financial solutions for global clients, managing complex engagements across statutory audits, reconciliations, internal controls, and regulatory compliance. His expertise includes accounting process optimization, software migration reconciliations, and implementing ASC 842 lease accounting standards for multinational businesses. Vasu has also worked extensively on US and UK tax compliance, including corporate tax provisions, UK tax return preparation, and ensuring adherence to international reporting standards. He has led projects involving multi-entity consolidations, preparation of financial statements, and compliance with local statutory requirements. With a strong focus on accuracy and efficiency, Vasu consistently drives operational improvements through detailed financial analysis and robust control frameworks.",
+        "Pulkit Gupta brings 14+ years of experience in financial operations, spanning accounts payable and receivable, order-to-cash, and record-to-report functions. He has led initiatives that cut costs by 3% and built SOPs that lifted operational efficiency across teams. His expertise spans financial compliance, SOX, audit, budgeting, and FP&A, backed by hands-on proficiency in SAP HANA, Oracle, and other ERP platforms. He currently oversees US and UK tax operations for individuals, trusts, and corporates, and has a strong track record in training and developing early-career talent.",
     },
   },
   {
@@ -149,14 +152,14 @@ const teamMembers = [
   },
   {
     id: 12,
-    name: "Deepak Sharma",
+    name: "Rishab Bachhawat",
     role: "Manager | CA",
-    image: Amit_Saini,
+    image: Rishab_Bachhawat,
     bgColor: "bg-red-200",
     shortDescription: "Manager at ISSC",
     details: {
       introduction:
-        "Deepak, Manager at ISSC-Audit and Assurance Practice, is a versatile Audit Professional with over a decade of experience across an entire spectrum of industries like manufacturing, services, shipping, and offshoring environments. Deepak excels in areas like internal financial control, risk control matrix, and control testing. He is proficient in service delivery tools like IDEA, courseware, and various client-specific collaboration tools. He is a qualified CA with the Institute of Chartered Accountants of India.",
+        "Rishab Bachhawat is a qualified Chartered Accountant with over 7.5 years of post-qualification experience across audit, accounting, and taxation. Prior to his current role as Manager in Accounting  & Taxation, Rishab spent 4.5 years with PwC, where he was involved in the end-to-end audit of US-based companies across a wide range of industries. His responsibilities included planning and executing audits, performing risk assessments, reviewing financial statements, and coordinating with client management to ensure timely and high-quality audit delivery. In addition to his audit experience, Rishab has worked in US taxation, preparing and reviewing various federal tax returns, including Forms 1040, 1065, and 1120. He also has experience in accounting, including working with accounting systems to maintain accurate financial records, support month-end close activities, prepare journal entries and account reconciliations, and ensure compliance with organizational policies and accounting standards.",
     },
   },
   {
@@ -168,7 +171,20 @@ const teamMembers = [
     shortDescription: "Manager at ISSC",
     details: {
       introduction:
-        "Aman Kedia, Manager at ISSC’s Audit Practice, is an audit professional with 5+ years of experience across industries such as Manufacturing, Trading, Logistics, Banking, and Educational Institutions. He has managed statutory, tax, internal, and concurrent audits, demonstrating versatility in both team leadership and individual roles. He also brings experience in providing analytics and CAATTS support to Financial service and wealth management audits. With knowledge of Ind AS, IFRS, Dutch GAAP and US GAAP, he is known for his analytical skills, attention to detail, and commitment to delivering high-quality assurance services. Aman also oversees data transformation and migration projects, bringing a results oriented approach and strong technical knowledge in data migration. He is a Chartered Accountant, certified by the Institute of Chartered Accountants of India, and holds a Bachelor’s degree in Commerce from Calcutta University."
+        "Aman Kedia has over 7 years of experience in audit and assurance across diverse industries, including Manufacturing, Trading, Logistics, Banking, and Educational Institutions. He has led statutory, tax, internal, and concurrent audits, showcasing versatility as both a team leader and an individual contributor. Aman also brings specialized experience in providing analytics and CAATTs support for Financial Services and Wealth Management audits. Well-versed in Ind AS, IFRS, Dutch GAAP, US GAAP, and UK GAAP, Aman is recognized for his strong analytical skills, attention to detail, and commitment to delivering high-quality assurance services. As a Manager, Aman also plays a key role in overseeing data transformation and migration projects and working with the UK audit team, bringing a results-oriented approach and strong technical expertise to every engagement. Aman is a Chartered Accountant certified by the Institute of Chartered Accountants of India and holds a Bachelor's degree in Commerce from Calcutta University."
+    },
+  },
+   {
+    id: 14,
+    name: "Manish Jodhani",
+    tagLine: "Designing Engaging User Experiences with Code",
+    role: "Manager | CA",
+    image: Manish_Jodhani,
+    bgColor: "bg-green-200",
+    shortDescription: "Manager at ISSC",
+    details: {
+      introduction:
+        "Manish Jodhani is a Manager in the firm’s Audit Practice, specializing in External Audit and Assurance with over 7  years of post qualification professional experience, including more than 5 years of experience with EY and Deloitte USI. He has led and managed audit engagements across diverse geographic locations such as US, Belgium, Netherlands and Hospitality France. In addition to his audit expertise, he has experience in Indian direct and indirect taxation. He has also been part of multiple automation projects in EY. He is known for his commitment, attention to detail, strong technical skills and people management skills",
     },
   },
 ];
