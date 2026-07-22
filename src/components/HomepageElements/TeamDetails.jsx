@@ -5,7 +5,7 @@ import Pulkit_Gupta from "../../Assets/Images/Pulkit_Gupta.jpg";
 import Shubham_Singhal from "../../Assets/Images/Shubham.png";
 import Amit_Saini from "../../Assets/Images/AMIT_IMAGE.png";
 import Aman_kedia from "../../Assets/Images/AMAN_KEDIA_IMAGE.png"
-import Manish_Pulwaria from "../../Assets/Images/MP_IMAGE.png";
+import Manish_Pulwaria from "../../Assets/Images/MP_IMAGE.jpg";
 import Praveen_Miglani from "../../Assets/Images/PM_IMAGE.png";
 import teams from '../../Assets/Images/Ankush_Tiwari-removebg-preview.png';
 import Vineet_sir from "../../Assets/Images/Vineet_sir.png";
